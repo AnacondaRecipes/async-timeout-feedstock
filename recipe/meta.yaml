@@ -17,7 +17,7 @@ build:
   skip: true  # [py2k]
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
@@ -31,6 +31,7 @@ about:
   home: http://github.com/aio-libs/async_timeout
   license: Apache 2.0
   license_file: LICENSE
+  license_family: Apache
   summary: 'Timeout context manager for asyncio programs'
 
   dev_url: http://github.com/aio-libs/async_timeout
