@@ -23,6 +23,7 @@ requirements:
     - setuptools >=45
     - wheel
   run:
+    - python
     - typing-extensions >=3.6.5 # [py<38]
 
 test:
